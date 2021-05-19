@@ -14,10 +14,8 @@ func reverseString(str: String) -> String {
     ///"hello,world" 11
     ///
     var chars = str.utf8CString
-    print("\(str.count)===\(chars)")
     var low = 0
     var high = chars.count - 2
-    print(high)
     while low < high {
         chars.swapAt(low, high)
         low += 1
