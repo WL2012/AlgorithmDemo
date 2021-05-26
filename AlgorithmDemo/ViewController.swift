@@ -10,12 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let result = reverseString(str: "hello,world")
-        print(result)
-        
-        var arr = [1,2,3,5,6,0,0,0]
-        let res = mergeArray(&arr, 5, [4,7,8,10,13,40,50], 3)
-        print(res)
+ 
+        var testArr = [7,6,5,4,3,2,1,3,3]
+        print(partition2(arr: &testArr, num: 3))
     }
 }
 
