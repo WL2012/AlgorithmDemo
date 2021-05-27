@@ -41,3 +41,8 @@ func partition1(arr: inout [Int], num: Int) -> [Int] {
     }
     return arr
 }
+
+func testPartitions() {
+    var testArr = [7,6,5,4,3,2,1,3,3]
+    print(partition2(arr: &testArr, num: 3))
+}

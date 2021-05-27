@@ -10,6 +10,8 @@
 		341703DB265E14EA0053F549 /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341703DA265E14EA0053F549 /* Partition.swift */; };
 		344AC89F2654FD3600DFCF45 /* ReverseListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AC89E2654FD3600DFCF45 /* ReverseListNode.swift */; };
 		344AC8A2265500CA00DFCF45 /* MergeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AC8A1265500CA00DFCF45 /* MergeArray.swift */; };
+		3456A8BE265F676C009FD916 /* Comparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456A8BD265F676C009FD916 /* Comparator.swift */; };
+		3456A8C1265F6F0C009FD916 /* SwiftGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456A8C0265F6F0C009FD916 /* SwiftGenerics.swift */; };
 		E912BA072653EF1000F06089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912BA062653EF1000F06089 /* AppDelegate.swift */; };
 		E912BA092653EF1000F06089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912BA082653EF1000F06089 /* SceneDelegate.swift */; };
 		E912BA0B2653EF1000F06089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912BA0A2653EF1000F06089 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 		341703DA265E14EA0053F549 /* Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
 		344AC89E2654FD3600DFCF45 /* ReverseListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseListNode.swift; sourceTree = "<group>"; };
 		344AC8A1265500CA00DFCF45 /* MergeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeArray.swift; sourceTree = "<group>"; };
+		3456A8BD265F676C009FD916 /* Comparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparator.swift; sourceTree = "<group>"; };
+		3456A8C0265F6F0C009FD916 /* SwiftGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGenerics.swift; sourceTree = "<group>"; };
 		E912BA032653EF1000F06089 /* AlgorithmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E912BA062653EF1000F06089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E912BA082653EF1000F06089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				344AC89E2654FD3600DFCF45 /* ReverseListNode.swift */,
 				344AC8A1265500CA00DFCF45 /* MergeArray.swift */,
 				341703DA265E14EA0053F549 /* Partition.swift */,
+				3456A8BD265F676C009FD916 /* Comparator.swift */,
+				3456A8C0265F6F0C009FD916 /* SwiftGenerics.swift */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -152,10 +158,12 @@
 				E912BA0B2653EF1000F06089 /* ViewController.swift in Sources */,
 				341703DB265E14EA0053F549 /* Partition.swift in Sources */,
 				E912BA1D2653EFAB00F06089 /* ReverseString.swift in Sources */,
+				3456A8BE265F676C009FD916 /* Comparator.swift in Sources */,
 				E912BA072653EF1000F06089 /* AppDelegate.swift in Sources */,
 				E912BA092653EF1000F06089 /* SceneDelegate.swift in Sources */,
 				344AC8A2265500CA00DFCF45 /* MergeArray.swift in Sources */,
 				344AC89F2654FD3600DFCF45 /* ReverseListNode.swift in Sources */,
+				3456A8C1265F6F0C009FD916 /* SwiftGenerics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
