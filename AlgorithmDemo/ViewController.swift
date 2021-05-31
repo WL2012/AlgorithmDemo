@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         print(a)
         
         testHeapSort()
+        testBubbleSort()
+        testSelectionSort()
+        testInsertionSort()
        
     }
 }
