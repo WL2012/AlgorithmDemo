@@ -18,6 +18,11 @@ class ViewController: UIViewController {
         testWhoWork(p: Doctor())
         testFindIndex()
         testMyStack()
+        let a = [Int?](repeating: nil, count: 10)
+        print(a)
+        
+        testHeapSort()
+       
     }
 }
 
